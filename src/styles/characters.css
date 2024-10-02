@@ -1,0 +1,28 @@
+.contenedor-ficha{
+    width: 1000px;
+    height: 600px;
+    margin-top: 20px;
+    
+    
+}
+
+.div-bg{
+    display: flex;
+    width: 100vw; /* Ancho completo de la ventana */
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    justify-content: center;
+}
+
+.contenedor-img-ficha{
+    margin: 20px 30px;
+}
+
+.datos-ficha{
+    margin: 20px 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: solid;
+    color: rgb(208, 186, 88);
+    text-transform: uppercase;
+}

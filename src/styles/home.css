@@ -1,0 +1,60 @@
+#contenedor-characters{
+    height: 500px;
+}
+
+.background{
+    background-image: url(https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.card-body{
+    background-color: black;
+}
+
+.card-title{
+    color: white;
+}
+.card-img-top {
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+    height: 100%;
+    width: 100%; /* Ajusta la altura de la imagen si es necesario */
+}
+
+.btn-details:hover{
+    background-color:  rgb(228, 187, 50);
+    cursor: pointer;
+}
+
+
+.scrolling-wrapper{
+    background-color: transparent;
+    overflow-x: auto;
+     white-space: nowrap;
+     overflow-y: hidden; 
+     padding-top: 10px;
+     padding-bottom: 15px;
+     /* background-color: black; */
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+    width: 8px;
+    background-color: #121315;
+    border-radius: 20px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb  {
+    background-color: rgb(220, 220, 220);
+    border-radius: 6px;
+  }
+
+  .scrolling-wrapper::-webkit-scrollbar-track-piece:decrement {
+    background: rgb(228, 187, 50);
+    background-clip: content-box;
+    /* border: solid 4px transparent; */
+  }

@@ -1,0 +1,10 @@
+li a:hover{
+    cursor: pointer;
+}
+
+li {
+    padding: 3px;
+    border-color: rgb(251, 224, 72);
+    border-width: 4px;
+}
+
